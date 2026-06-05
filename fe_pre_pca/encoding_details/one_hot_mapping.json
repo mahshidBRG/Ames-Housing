@@ -1,0 +1,370 @@
+{
+  "MS Zoning": {
+    "original_column": "MS Zoning",
+    "categories": [
+      "RL",
+      "RH",
+      "FV",
+      "RM",
+      "C (all)",
+      "I (all)",
+      "A (agr)"
+    ],
+    "dummy_columns": [
+      "MS Zoning_RH",
+      "MS Zoning_FV",
+      "MS Zoning_RM",
+      "MS Zoning_C (all)",
+      "MS Zoning_I (all)",
+      "MS Zoning_A (agr)"
+    ]
+  },
+  "Street": {
+    "original_column": "Street",
+    "categories": [
+      "Pave",
+      "Grvl"
+    ],
+    "dummy_columns": [
+      "Street_Grvl"
+    ]
+  },
+  "Lot Shape": {
+    "original_column": "Lot Shape",
+    "categories": [
+      "IR1",
+      "Reg",
+      "IR2",
+      "IR3"
+    ],
+    "dummy_columns": [
+      "Lot Shape_Reg",
+      "Lot Shape_IR2",
+      "Lot Shape_IR3"
+    ]
+  },
+  "Land Contour": {
+    "original_column": "Land Contour",
+    "categories": [
+      "Lvl",
+      "HLS",
+      "Bnk",
+      "Low"
+    ],
+    "dummy_columns": [
+      "Land Contour_HLS",
+      "Land Contour_Bnk",
+      "Land Contour_Low"
+    ]
+  },
+  "Lot Config": {
+    "original_column": "Lot Config",
+    "categories": [
+      "Corner",
+      "Inside",
+      "CulDSac",
+      "FR2",
+      "FR3"
+    ],
+    "dummy_columns": [
+      "Lot Config_Inside",
+      "Lot Config_CulDSac",
+      "Lot Config_FR2",
+      "Lot Config_FR3"
+    ]
+  },
+  "Neighborhood": {
+    "original_column": "Neighborhood",
+    "categories": [
+      "NAmes",
+      "Gilbert",
+      "StoneBr",
+      "NWAmes",
+      "Somerst",
+      "BrDale",
+      "NPkVill",
+      "NridgHt",
+      "Blmngtn",
+      "NoRidge",
+      "SawyerW",
+      "Sawyer",
+      "Greens",
+      "BrkSide",
+      "OldTown",
+      "IDOTRR",
+      "ClearCr",
+      "SWISU",
+      "Edwards",
+      "CollgCr",
+      "Crawfor",
+      "Blueste",
+      "Mitchel",
+      "Timber",
+      "MeadowV",
+      "Veenker",
+      "GrnHill",
+      "Landmrk"
+    ],
+    "dummy_columns": [
+      "Neighborhood_Gilbert",
+      "Neighborhood_StoneBr",
+      "Neighborhood_NWAmes",
+      "Neighborhood_Somerst",
+      "Neighborhood_BrDale",
+      "Neighborhood_NPkVill",
+      "Neighborhood_NridgHt",
+      "Neighborhood_Blmngtn",
+      "Neighborhood_NoRidge",
+      "Neighborhood_SawyerW",
+      "Neighborhood_Sawyer",
+      "Neighborhood_Greens",
+      "Neighborhood_BrkSide",
+      "Neighborhood_OldTown",
+      "Neighborhood_IDOTRR",
+      "Neighborhood_ClearCr",
+      "Neighborhood_SWISU",
+      "Neighborhood_Edwards",
+      "Neighborhood_CollgCr",
+      "Neighborhood_Crawfor",
+      "Neighborhood_Blueste",
+      "Neighborhood_Mitchel",
+      "Neighborhood_Timber",
+      "Neighborhood_MeadowV",
+      "Neighborhood_Veenker",
+      "Neighborhood_GrnHill",
+      "Neighborhood_Landmrk"
+    ]
+  },
+  "Bldg Type": {
+    "original_column": "Bldg Type",
+    "categories": [
+      "1Fam",
+      "TwnhsE",
+      "Twnhs",
+      "Duplex",
+      "2fmCon"
+    ],
+    "dummy_columns": [
+      "Bldg Type_TwnhsE",
+      "Bldg Type_Twnhs",
+      "Bldg Type_Duplex",
+      "Bldg Type_2fmCon"
+    ]
+  },
+  "House Style": {
+    "original_column": "House Style",
+    "categories": [
+      "1Story",
+      "2Story",
+      "1.5Fin",
+      "SFoyer",
+      "SLvl",
+      "2.5Unf",
+      "1.5Unf",
+      "2.5Fin"
+    ],
+    "dummy_columns": [
+      "House Style_2Story",
+      "House Style_1.5Fin",
+      "House Style_SFoyer",
+      "House Style_SLvl",
+      "House Style_2.5Unf",
+      "House Style_1.5Unf",
+      "House Style_2.5Fin"
+    ]
+  },
+  "Roof Style": {
+    "original_column": "Roof Style",
+    "categories": [
+      "Hip",
+      "Gable",
+      "Gambrel",
+      "Shed",
+      "Flat",
+      "Mansard"
+    ],
+    "dummy_columns": [
+      "Roof Style_Gable",
+      "Roof Style_Gambrel",
+      "Roof Style_Shed",
+      "Roof Style_Flat",
+      "Roof Style_Mansard"
+    ]
+  },
+  "Roof Matl": {
+    "original_column": "Roof Matl",
+    "categories": [
+      "CompShg",
+      "Tar&Grv",
+      "WdShake",
+      "WdShngl",
+      "Roll",
+      "Metal"
+    ],
+    "dummy_columns": [
+      "Roof Matl_Tar&Grv",
+      "Roof Matl_WdShake",
+      "Roof Matl_WdShngl",
+      "Roof Matl_Roll",
+      "Roof Matl_Metal"
+    ]
+  },
+  "Exterior 1st": {
+    "original_column": "Exterior 1st",
+    "categories": [
+      "BrkFace",
+      "VinylSd",
+      "Wd Sdng",
+      "CemntBd",
+      "HdBoard",
+      "Plywood",
+      "MetalSd",
+      "AsbShng",
+      "WdShing",
+      "Stucco",
+      "AsphShn",
+      "BrkComm",
+      "CBlock",
+      "PreCast",
+      "Stone",
+      "ImStucc"
+    ],
+    "dummy_columns": [
+      "Exterior 1st_VinylSd",
+      "Exterior 1st_Wd Sdng",
+      "Exterior 1st_CemntBd",
+      "Exterior 1st_HdBoard",
+      "Exterior 1st_Plywood",
+      "Exterior 1st_MetalSd",
+      "Exterior 1st_AsbShng",
+      "Exterior 1st_WdShing",
+      "Exterior 1st_Stucco",
+      "Exterior 1st_AsphShn",
+      "Exterior 1st_BrkComm",
+      "Exterior 1st_CBlock",
+      "Exterior 1st_PreCast",
+      "Exterior 1st_Stone",
+      "Exterior 1st_ImStucc"
+    ]
+  },
+  "Mas Vnr Type": {
+    "original_column": "Mas Vnr Type",
+    "categories": [
+      "Stone",
+      "None",
+      "BrkFace",
+      "BrkCmn",
+      "CBlock"
+    ],
+    "dummy_columns": [
+      "Mas Vnr Type_None",
+      "Mas Vnr Type_BrkFace",
+      "Mas Vnr Type_BrkCmn",
+      "Mas Vnr Type_CBlock"
+    ]
+  },
+  "Foundation": {
+    "original_column": "Foundation",
+    "categories": [
+      "CBlock",
+      "PConc",
+      "Wood",
+      "BrkTil",
+      "Slab",
+      "Stone"
+    ],
+    "dummy_columns": [
+      "Foundation_PConc",
+      "Foundation_Wood",
+      "Foundation_BrkTil",
+      "Foundation_Slab",
+      "Foundation_Stone"
+    ]
+  },
+  "Heating": {
+    "original_column": "Heating",
+    "categories": [
+      "GasA",
+      "GasW",
+      "Other",
+      "OthW"
+    ],
+    "dummy_columns": [
+      "Heating_GasW",
+      "Heating_Other",
+      "Heating_OthW"
+    ]
+  },
+  "Central Air": {
+    "original_column": "Central Air",
+    "categories": [
+      "Y",
+      "N"
+    ],
+    "dummy_columns": [
+      "Central Air_N"
+    ]
+  },
+  "Electrical": {
+    "original_column": "Electrical",
+    "categories": [
+      "SBrkr",
+      "FuseA",
+      "FuseF",
+      "FuseP",
+      "Mix"
+    ],
+    "dummy_columns": [
+      "Electrical_FuseA",
+      "Electrical_FuseF",
+      "Electrical_FuseP",
+      "Electrical_Mix"
+    ]
+  },
+  "Garage Type": {
+    "original_column": "Garage Type",
+    "categories": [
+      "Attchd",
+      "BuiltIn",
+      "Basment",
+      "Detchd",
+      "None",
+      "CarPort",
+      "2Types"
+    ],
+    "dummy_columns": [
+      "Garage Type_BuiltIn",
+      "Garage Type_Basment",
+      "Garage Type_Detchd",
+      "Garage Type_None",
+      "Garage Type_CarPort",
+      "Garage Type_2Types"
+    ]
+  },
+  "Sale Type": {
+    "original_column": "Sale Type",
+    "categories": [
+      "WD ",
+      "New",
+      "COD",
+      "ConLI",
+      "Con",
+      "ConLD",
+      "Oth",
+      "ConLw",
+      "CWD",
+      "VWD"
+    ],
+    "dummy_columns": [
+      "Sale Type_New",
+      "Sale Type_COD",
+      "Sale Type_ConLI",
+      "Sale Type_Con",
+      "Sale Type_ConLD",
+      "Sale Type_Oth",
+      "Sale Type_ConLw",
+      "Sale Type_CWD",
+      "Sale Type_VWD"
+    ]
+  }
+}
